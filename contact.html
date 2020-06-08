@@ -13,17 +13,19 @@
   <title>Contact me</title>
 </head>
 
-<body>
+<body class="contactbody">
 
-  <h1>My Contacts</h1>
+  <h1 class="contach1">My Contacts</h1>
+  <div class="mycontact">
 
-  <ul>
-    <li>Cell: +254 (792) 281-871</li>
-    <li>Git-hub: <a href="https://github.con/kherld-hussein/">kherld-hussein</a></li>
-    <li>twiter: <a href="https://twiter.com/kherld-hussein/">kherld-hussein</a></li>
-    <li>Email: <em>kherld11@gmail.com</em></li>
-  </ul>
 
+    <ul>
+      <li>Cell: +254 (792) 281-871</li>
+      <li>Git-hub:<a href="https://github.con/kherld-hussein/">kherld-hussein</a></li>
+      <li>twiter:<a href="https://twiter.com/kherld-hussein/">kherld-hussein</a></li>
+      <li>Email: kherld11@gmail.com</li>
+    </ul>
+  </div>
   <form action="mailto:kherld11@gmail.com" method="post" enctype="text/plain">
     <label for="">Your Name: </label><br>
     <input type="text" name="yourName" value=""><br>
@@ -33,7 +35,8 @@
     <textarea name="yourMessage" rows="8" placeholder="Write your Message here..." cols="80"></textarea><br>
     <!-- <label for=""><strong>Agree</strong> to the Policy Privacy</label> -->
     <!-- <input type="checkbox" name="" value=""><br> -->
-    <input type="submit" name=""><br>
+    <!-- <input type="submit" name=""><br> -->
+    <button class="btn btn-light btn-lg btn-block" type="submit" name="submit"> Send</button>
   </form>
 
   <!-- Optional JavaScript -->

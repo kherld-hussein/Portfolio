@@ -1,5 +1,5 @@
 body {
-  color: #40514E;
+  color: #FFF;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
@@ -7,7 +7,7 @@ body {
 
 h1 {
   text-align: center;
-  color: #66BFBF;
+  color: #FFF;
   font-size: 5.625rem;
   line-height: 2;
   margin: 50px auto 0 auto;
@@ -46,9 +46,17 @@ label {
   margin: 2rem;
 }
 
+.contach1 {
+  color: #3C4EB7;
+}
+
+.contactbody {
+  text-align: center;
+}
+
 /* Hierachial container */
 .top-container {
-  background-color: #3A7A90;
+  background-color: #3C4EB7;
   position: relative;
   padding-top: 120px;
 }
@@ -59,7 +67,7 @@ label {
 
 .bottom-container {
   text-align: center;
-  background-color: #3A7A90;
+  background-color: #3C4EB7;
   padding: 50px 0 20px;
 }
 
@@ -75,6 +83,7 @@ textarea {
 
 .prof {
   border-radius: 100%;
+  margin-bottom: 1rem;
 }
 
 .pro {
@@ -115,6 +124,9 @@ hr {
   width: 30%;
   margin: 40px auto 60px;
 }
+.mycontact{
+  text-align: inherit;
+}
 
 .tech {
   margin: auto;
@@ -135,6 +147,26 @@ hr {
   vertical-align: middle;
   user-select: none;
   background-color: #ba7c37;
+}
+.desc1{
+  text-align: left;
+}
+
+.btn-primary {
+  margin: 1rem;
+  border-style: solid;
+  border-width: 0 1px 4px;
+  border-bottom-width: 4px;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  box-shadow: rgba(0, 0, 0, .3) 0 0 10px;
+  background-color: #11999E;
+  border-bottom-width: 4px;
+  border-color: #11999E;
+  border-bottom-color: rgb(229, 62, 30);
+  border-bottom-color: #11999E;
+  color: #fff;
 }
 
 .btn:hover {
