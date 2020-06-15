@@ -8,42 +8,105 @@
 
   <link rel="stylesheet" href="css/styles.css">
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+   integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
+   crossorigin="anonymous">
 
   <title>Contact me</title>
 </head>
 
 <body class="contactbody">
+ 
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+     <a class="navbar-brand js-scroll-trigger" href="index.html">kherld</a>
+  </nav>
+ 
 
   <h1 class="contach1">My Contacts</h1>
-  <div class="mycontact">
 
 
-    <ul>
-      <li>Cell: +254 (792) 281-871</li>
-      <li>Git-hub:<a href="https://github.con/kherld-hussein/">kherld-hussein</a></li>
-      <li>twiter:<a href="https://twiter.com/kherld-hussein/">kherld-hussein</a></li>
-      <li>Email: kherld11@gmail.com</li>
-    </ul>
+  <div class="accordion" id="accordionExample">
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" 
+          data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Git-hub:
+          </button>
+        </h2>
+      </div>
+  
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">
+          <a href="https://github.con/kherld-hussein/">kherld-hussein</a> <br>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header" id="headingTwo">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+           data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Twiter:
+          </button>
+        </h2>
+      </div>
+      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+        <div class="card-body">
+          <a href="https://twiter.com/kherld-hussein/">@kherld-hussein</a><br>        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header" id="headingThree">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+           data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Email:
+          </button>
+        </h2>
+      </div>
+      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+        <div class="card-body">
+          <a href="mailto:kherld11@gmail.com">kherld11@gmail.com</a> 
+        </div>
+      </div>
+    </div>
+    
+    <div class="card">
+      <div class="card-header" id="contact4">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" 
+          data-target="#contact4" aria-expanded="false" aria-controls="contact4">
+            Cell:
+          </button>
+        </h2>
+      </div>
+      <div id="contact4" class="collapse" aria-labelledby="contact4" data-parent="#accordionExample">
+        <div class="card-body">
+          <a href="tel:+254792281871">+254 (0) 7922 81871</a> 
+        </div>
+      </div>
+    </div>
   </div>
-  <form action="mailto:kherld11@gmail.com" method="post" enctype="text/plain">
-    <label for="">Your Name: </label><br>
-    <input type="text" name="yourName" value=""><br>
-    <label for="">Your Email: </label><br>
-    <input type="email" name="yourEmail" value=""><br>
-    <label for="">Your Message: </label><br>
-    <textarea name="yourMessage" rows="8" placeholder="Write your Message here..." cols="80"></textarea><br>
-    <!-- <label for=""><strong>Agree</strong> to the Policy Privacy</label> -->
-    <!-- <input type="checkbox" name="" value=""><br> -->
-    <!-- <input type="submit" name=""><br> -->
-    <button class="btn btn-light btn-lg btn-block" type="submit" name="submit"> Send</button>
-  </form>
+
+
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+  crossorigin="anonymous">
+</script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
+  crossorigin="anonymous">
+</script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+   integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous">
+  </script>
 </body>
 
 </html>
